@@ -1,5 +1,12 @@
 # Changelog
 
+## \[1.0.0-rc.2]
+
+- Fix `init` command prompting for values even if the argument has been provided on the command line.
+  - [def76840](https://www.github.com/tauri-apps/tauri/commit/def76840257a1447723ecda13c807cf0c881f083) fix(cli.rs): do not prompt for `init` values if arg set ([#3400](https://www.github.com/tauri-apps/tauri/pull/3400)) on 2022-02-11
+- Fixes CLI freezing when running `light.exe` on Windows without the `--verbose` flag.
+  - [8beab636](https://www.github.com/tauri-apps/tauri/commit/8beab6363491e2a8757cc9fc0fa1eccc98ece916) fix(cli): build freezing on Windows, closes [#3399](https://www.github.com/tauri-apps/tauri/pull/3399) ([#3402](https://www.github.com/tauri-apps/tauri/pull/3402)) on 2022-02-11
+
 ## \[1.0.0-rc.1]
 
 - Include `vswhere.exe` on the published package.

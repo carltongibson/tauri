@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0-rc.1]
+
+- Fixes CLI freezing when running `light.exe` on Windows without the `--verbose` flag.
+  - [8beab636](https://www.github.com/tauri-apps/tauri/commit/8beab6363491e2a8757cc9fc0fa1eccc98ece916) fix(cli): build freezing on Windows, closes [#3399](https://www.github.com/tauri-apps/tauri/pull/3399) ([#3402](https://www.github.com/tauri-apps/tauri/pull/3402)) on 2022-02-11
+
 ## \[1.0.0-rc.0]
 
 - Do not force Tauri application code on `src-tauri` folder and use a glob pattern to look for a subfolder with a `tauri.conf.json` file.

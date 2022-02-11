@@ -77,6 +77,8 @@
     ".changes/expose-escape-json-string.md",
     ".changes/fix-asset-protocol-panicking.md",
     ".changes/fix-block-on-runtime.md",
+    ".changes/fix-cli-prompts.md",
+    ".changes/fix-cli.js-windows-freezing.md",
     ".changes/fix-close-requested-js-event.md",
     ".changes/fix-deadlock-create-window-from-menu.md",
     ".changes/fix-deadlock-path-iter.md",
